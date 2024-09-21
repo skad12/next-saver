@@ -43,7 +43,7 @@ export default function Home() {
         value={videoUrl}
         onChange={(e) => setVideoUrl(e.target.value)}
         placeholder="Enter video URL"
-        className="p-2 border rounded w-full max-w-md mb-4"
+        className="p-2 border rounded w-full max-w-md mb-4 text-black"
       />
       <button
         onClick={handleDownload}
